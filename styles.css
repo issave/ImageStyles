@@ -12,8 +12,10 @@ img{
     border: 5px solid #333;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    filter: grayscale(50%) blur(1px) brightness(20%);
 }
 
 img:hover{
     border: 5px solid red;
+    filter: blur(0px)  ;
 }
